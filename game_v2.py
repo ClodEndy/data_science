@@ -9,10 +9,9 @@ def random_predict(number: int = 1) -> int:
     Returns:
         int: Число попыток
     """
-    #задаем интервал чисел от 0 до 100
     count = 0
-    min = 1
-    max = 101
+    #задаем интервал чисел от 0 до 100
+    min, max = 1, 101
     while True:
         count += 1
         #находим середину интервала
