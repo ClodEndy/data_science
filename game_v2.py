@@ -1,6 +1,6 @@
 import numpy as np
 
-def random_predict(number:int=1) -> int:
+def random_predict(number: int = 1) -> int:
     """Рандомно угадываем число
 
     Args:
@@ -9,14 +9,22 @@ def random_predict(number:int=1) -> int:
     Returns:
         int: Число попыток
     """
-
+    #задаем интервал чисел от 0 до 100
     count = 0
-
+    min = 1
+    max = 101
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
-        if number == predict_number:
-            break # выход из цикла, если угадали
+        #находим середину интервала
+        predict_number = (min + max)//2 
+        # Если предполагаемое число  больше загаданного, устанавливаем его наибольшим значением интервала
+        if predict_number > number:
+            max = predict_number
+        # Если предполагаемое число  меньше загаданного, устанавливаем его наименьшим значением интервала
+        elif predict_number < number:
+            min = predict_number
+        else:
+            break
     return(count)
 
 print(f'Количество попыток: {random_predict()}')
