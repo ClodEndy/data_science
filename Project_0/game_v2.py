@@ -11,7 +11,7 @@ def random_predict(number: int = 1) -> int:
     """
     count = 0
     #задаем интервал чисел от 0 до 100
-    min, max = 1, 101
+    min, max = 0, 101
     while True:
         count += 1
         #находим середину интервала
