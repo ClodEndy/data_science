@@ -10,7 +10,7 @@
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
 
-:arrow_up:[к оглавлению](_)
+:arrow_up:[к оглавлению](https://github.com/ClodEndy/data_science/tree/main/Project_0/README.md#Оглавление)
 
 
 ### Какой кейс решаем?    
@@ -35,4 +35,4 @@
 ### Результат
 Программа угадывает число от нуля до ста в среднем за пять попыток
   
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/ClodEndy/data_science/tree/main/Project_0/README.md#Оглавление)
