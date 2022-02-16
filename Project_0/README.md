@@ -1,11 +1,11 @@
 # Проект 0. Угадай число
 
 ## Оглавление  
-[1. Описание проекта](.README.md#Описание-проекта)  
-[2. Какой кейс решаем?](.README.md#Какой-кейс-решаем)  
-[3. Этапы работы над проектом](.README.md#Этапы-работы-над-проектом)  
-[4. Результат](.README.md#Результат)    
-[5. Выводы](.README.md#Выводы) 
+[1. Описание проекта](https://github.com/ClodEndy/data_science/tree/main/Project_0/README.md#Описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/ClodEndy/data_science/tree/main/Project_0/README.md#Какой-кейс-решаем)  
+[3. Этапы работы над проектом](https://github.com/ClodEndy/data_science/tree/main/Project_0/README.md#Этапы-работы-над-проектом)  
+[4. Результат](https://github.com/ClodEndy/data_science/tree/main/Project_0/README.md#Результат)    
+[5. Выводы](https://github.com/ClodEndy/data_science/tree/main/Project_0/README.md#Выводы) 
 
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
